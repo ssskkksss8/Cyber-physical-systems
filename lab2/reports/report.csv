@@ -1,0 +1,41 @@
+id,message,verdict,reasoning,model,created_at,raw_response
+1,WINNER! You have won a free vacation. Reply YES to claim now.,1,"The message contains a clear and direct offer of a free vacation, which is typically not associated with spam messages.",qwen2.5:0.5b,2026-04-23T13:09:05.165937+00:00,"{
+  ""reasoning"": ""The message contains a clear and direct offer of a free vacation, which is typically not associated with spam messages."",
+  ""verdict"": 1
+}"
+2,"Hi Alex, are we still meeting at 18:30 near the station?",0,"The message is asking about a specific time and location, which is not typical for an SMS spam classification.",qwen2.5:0.5b,2026-04-23T13:09:08.306234+00:00,"{
+  ""reasoning"": ""The message is asking about a specific time and location, which is not typical for an SMS spam classification."",
+  ""verdict"": 0
+}"
+3,URGENT: Your bank account is blocked. Follow the link immediately.,1,"The message contains a direct and urgent request for action, which is typical of spam messages.",qwen2.5:0.5b,2026-04-23T13:09:11.250961+00:00,"{
+  ""reasoning"": ""The message contains a direct and urgent request for action, which is typical of spam messages."",
+  ""verdict"": 1
+}"
+4,Please review the draft and send comments before tomorrow morning.,0,"The message is asking for a draft of an email, which is typically used to discuss content with others. It does not contain any spammy language or requests for sensitive information.",qwen2.5:0.5b,2026-04-23T13:09:15.012488+00:00,"{
+  ""reasoning"": ""The message is asking for a draft of an email, which is typically used to discuss content with others. It does not contain any spammy language or requests for sensitive information."",
+  ""verdict"": 0
+}"
+5,Congratulations! You were selected for a cash prize. Call now.,1,"The message is clearly asking the recipient to call, which is a common practice in SMS spam.",qwen2.5:0.5b,2026-04-23T13:09:17.913078+00:00,"{
+  ""reasoning"": ""The message is clearly asking the recipient to call, which is a common practice in SMS spam."",
+  ""verdict"": 1
+}"
+6,"Mom, I bought bread and milk. I will be home in 20 minutes.",0,"The message is about a planned trip to the store, which is not typical for an SMS spam message.",qwen2.5:0.5b,2026-04-23T13:09:21.021505+00:00,"{
+  ""reasoning"": ""The message is about a planned trip to the store, which is not typical for an SMS spam message."",
+  ""verdict"": 0
+}"
+7,Limited offer only today: get a cheap loan with no documents required.,0,"The message contains a direct and clear offer to apply for a loan without any personal details, which is typically not associated with spam messages.",qwen2.5:0.5b,2026-04-23T13:09:24.422812+00:00,"{
+  ""reasoning"": ""The message contains a direct and clear offer to apply for a loan without any personal details, which is typically not associated with spam messages."",
+  ""verdict"": 0
+}"
+8,The lesson has been moved from Friday to Saturday at 10:00.,0,"This message is a direct request for information about the move of the lesson, which is not typical spam.",qwen2.5:0.5b,2026-04-23T13:09:27.497015+00:00,"{
+  ""reasoning"": ""This message is a direct request for information about the move of the lesson, which is not typical spam."",
+  ""verdict"": 0
+}"
+9,Claim your bonus points before they expire. Click the link.,0,"The message is asking for a link to claim bonus points, which is typically found in an email with a link attached.",qwen2.5:0.5b,2026-04-23T13:09:30.685501+00:00,"{
+  ""reasoning"": ""The message is asking for a link to claim bonus points, which is typically found in an email with a link attached."",
+  ""verdict"": 0
+}"
+10,I left the charger on your desk. Take it when you arrive.,0,The message is a polite reminder to take the charger when arriving at the location.,qwen2.5:0.5b,2026-04-23T13:09:33.296654+00:00,"{
+  ""reasoning"": ""The message is a polite reminder to take the charger when arriving at the location."",
+  ""verdict"": 0
+}"
