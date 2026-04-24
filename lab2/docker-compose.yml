@@ -1,0 +1,16 @@
+services:
+  ollama_lab:
+    build: .
+    container_name: ollama_lab
+    ports:
+      - "8000:8000"
+      - "11434:11434"
+    environment:
+      OLLAMA_MODEL: qwen2.5:0.5b
+      OLLAMA_HOST: 0.0.0.0:11434
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+
+volumes:
+  ollama_data:
